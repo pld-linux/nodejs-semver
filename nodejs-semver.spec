@@ -1,13 +1,13 @@
 %define		pkg	semver
 Summary:	The semantic versioner for npm
 Name:		nodejs-%{pkg}
-Version:	1.1.1
+Version:	1.1.3
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/node-semver
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	f787e3f3f209fdc642d52b6589220a9f
+# Source0-md5:	05b28f2578e0dad840ac82d0696210d7
 BuildRequires:	rpmbuild(macros) >= 1.634
 BuildRequires:	sed >= 4.0
 Requires:	nodejs
