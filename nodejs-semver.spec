@@ -2,7 +2,7 @@
 Summary:	The semantic versioner for npm
 Name:		nodejs-%{pkg}
 Version:	2.3.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
